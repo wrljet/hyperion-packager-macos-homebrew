@@ -9,7 +9,7 @@
 # license: refer to website and/or github
 # about:
 #</hyperion-mojave_header>
-class Hyperion-Mojave < Formula
+class HyperionMojave < Formula
   desc ""
   homepage "https://sdl-hercules-390.github.io/html/"
   
