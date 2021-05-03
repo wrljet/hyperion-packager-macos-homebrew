@@ -17,6 +17,7 @@ class HyperionMojave < Formula
     puts "buildpath = #{buildpath}"
     puts "Beginning SDL-Hercules-390 Hyperion installation"
     bin.install "bin/hercules"
+    prefix.install Dir["bin"]
     prefix.install Dir["lib"]
     prefix.install Dir["share"]
     puts "Completed install"
