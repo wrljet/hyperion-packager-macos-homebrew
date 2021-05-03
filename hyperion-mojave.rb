@@ -16,7 +16,6 @@ class HyperionMojave < Formula
     puts "prefix = #{prefix}"
     puts "buildpath = #{buildpath}"
     puts "Beginning SDL-Hercules-390 Hyperion installation"
-    bin.install "bin/hercules"
     bin.install "bin/cckd2ckd"
     bin.install "bin/cckd642ckd"
     bin.install "bin/cckdcdsk"
