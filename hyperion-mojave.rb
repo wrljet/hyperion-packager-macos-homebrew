@@ -5,7 +5,7 @@ class HyperionMojave < Formula
   desc "SDL-Hercules-390 built for macOS"
   homepage ""
   url "https://github.com/wrljet/hyperion-mojave/archive/v0.9.1.tar.gz"
-  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  sha256 "719f5008f7c02e26899108e2876ecdcee032792a60555781b5297de84d78bda1"
   license ""
 
   def install
