@@ -1,0 +1,58 @@
+
+
+   97  cd ~
+   98  pwd
+   99  mkdir foo
+  100  cd foo
+
+  112  vi /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/hyperion-mojave.rb
+
+  127  brew create  https://github.com/wrljet/hyperion-mojave/archive/v0.9.1.tar.gz
+  128  brew tap wrljet/hyperion-mojave
+  129  brew install hyperion-mojave
+
+  137  brew bottle hyperion-mojave
+  138  brew install --build-bottle hyperion-mojave
+  139  brew remove hyperion-mojave
+  141  brew create  https://github.com/wrljet/hyperion-mojave/archive/v0.9.1.tar.gz
+
+  142  vi /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/hyperion-mojave.rb
+  143  brew tap wrljet/hyperion-mojave
+  144  brew install --build-bottle hyperion-mojave
+  145  cp /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/hyperion-mojave.rb .
+
+  147  vi hyperion-mojave.rb 
+  148  brew remove hyperion-mojave
+  149  rm /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/hyperion-mojave.rb
+
+  167  brew install --build-bottle wrljet/hyperion-mojave/hyperion-mojave
+  168  brew remove hyperion-mojave
+
+  169  rm /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/hyperion-mojave.rb
+  172  brew tap wrljet/hyperion-mojave
+  173  brew install --build-bottle wrljet/hyperion-mojave/hyperion-mojave
+  174  rm /Users/bill/Library/Caches/Homebrew/downloads/854bfd63c9a7df95471817b486534ebdf4ea37c05170ef1299f9cb948484bc61--hyperion-mojave-0.9.1.tar.gz
+  175  brew install --build-bottle wrljet/hyperion-mojave/hyperion-mojave
+
+  176  rm /Users/bill/Library/Caches/Homebrew/downloads/854bfd63c9a7df95471817b486534ebdf4ea37c05170ef1299f9cb948484bc61--hyperion-mojave-0.9.1.tar.gz
+  177  brew tap wrljet/hyperion-mojave
+
+  178  brew install --build-bottle wrljet/hyperion-mojave/hyperion-mojave
+  179  shasum -a 256 /Users/bill/Library/Caches/Homebrew/downloads/854bfd63c9a7df95471817b486534ebdf4ea37c05170ef1299f9cb948484bc61--hyperion-mojave-0.9.1.tar.gz
+
+  214  ls ~/Library/Caches/Homebrew/
+  215  rm  ~/Library/Caches/Homebrew/hyperion-mojave--0.9.1.tar.gz 
+
+  225  rm ~/Library/Caches/Homebrew/downloads/854bfd63c9a7df95471817b486534ebdf4ea37c05170ef1299f9cb948484bc61--hyperion-mojave-0.9.1.tar.gz 
+
+  230  brew tap --help
+  231  brew tap wrljet/hyperion-mojave
+  232  brew install hyperion-mojave
+
+  208  brew remove hyperion-mojave
+
+  233  xcode-select --install
+  234  sudo rm -rf /Library/Developer/CommandLineTools
+  235  xcode-select --install
+  236  brew install hyperion-mojave
+
